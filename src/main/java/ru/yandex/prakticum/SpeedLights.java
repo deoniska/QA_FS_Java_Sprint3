@@ -11,7 +11,7 @@ public class SpeedLights {
     public String showLight(int currentLight) {
         if (currentLight < 60) {
             return "green";
-        } else if (currentLight < 80) {
+        } else if (currentLight <= 80) {
             return "yellow";
         } else {
             return "red";
